@@ -10,6 +10,18 @@ svg {
   outline:none;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(46, 46, 50);
+}
+
 @keyframes grow {
   from {
     transform: scaleX(0);
